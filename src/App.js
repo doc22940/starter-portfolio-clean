@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import 'bulma/css/bulma.css';
 import Navigation from './components/Navigation';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import ScrollTop from './components/ScrollTop';
+
 import Projects from './pages/Projects';
 
 import AboutMe from './pages/AboutMe';
@@ -12,7 +12,6 @@ import AboutMe from './pages/AboutMe';
 const App = () => (
   <React.Fragment>
     <Router>
-      <ScrollTop />
       <Navigation />
       <Switch>
         <Route exact path='/' component={Home} />

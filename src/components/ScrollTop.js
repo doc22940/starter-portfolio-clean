@@ -5,7 +5,7 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 const ScrollTop = () => (
   <React.Fragment>
-    <ScrollToTop showUnder={160} duration={500}>
+    <ScrollToTop showUnder={160} duration={500} style={{ zIndex: 999 }}>
       <FontAwesomeIcon icon={faArrowUp} size='2x' />
     </ScrollToTop>
   </React.Fragment>
