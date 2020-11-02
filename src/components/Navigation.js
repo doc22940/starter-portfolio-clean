@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import UseAnimations from 'react-useanimations';
+import mail from 'react-useanimations/lib/mail';
 
+const email = 'gaby1306@gmail.com';
 function Navigation() {
   const [isActive, setIsActive] = useState(false);
 
@@ -43,6 +46,9 @@ function Navigation() {
                 onClick={() => setIsActive(!isActive)}>
                 About Me
               </Link>
+              <a style={{ marginLeft: '5px' }} href={'mailto:' + email}>
+                <UseAnimations animation={mail} />
+              </a>
             </div>
           </div>
         </div>
