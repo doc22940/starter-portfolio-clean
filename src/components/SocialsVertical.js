@@ -4,6 +4,7 @@ import github from 'react-useanimations/lib/github';
 import linkedin from 'react-useanimations/lib/linkedin';
 import twitter from 'react-useanimations/lib/twitter';
 import instagram from 'react-useanimations/lib/instagram';
+
 const SocialsVertical = () => (
   <React.Fragment>
     <a

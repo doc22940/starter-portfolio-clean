@@ -48,33 +48,35 @@ const RecentProjects = () => (
   <div
     className='section mb-6'
     style={{ backgroundColor: 'rgba(90, 90, 133, 17)' }}>
-    <div className='columns is-vcentered'>
-      <div className='column has-text-left is-offset-3 mt-4 '>
-        <h1 className='title is-4 has-text-white hero_title'>
-          {recentProject}
-        </h1>
+    <div class='container is-max-desktop'>
+      <div className='columns is-vcentered'>
+        <div className='column has-text-left mt-4 '>
+          <h1 className='title is-4 has-text-white hero_title'>
+            {recentProject}
+          </h1>
+        </div>
       </div>
-    </div>
-    <div className='columns mt-3 is-justify-content-center'>
-      <div className='column mt-5 is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-3-fullhd mb-6'>
-        <Card
-          recentProjectImageMain={gaineys_preview}
-          mainTitle={gaineysMainTitle}
-          projectLink={gaineysLink}
-          linkInfo={gaineysLinKInfo}
-          description={gaineysDescription}
-          stack={gaineysStack}
-        />
-      </div>
-      <div className='column mt-5 is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-3-fullhd mb-6'>
-        <Card
-          recentProjectImageMain={blocksports_preview}
-          mainTitle={blocksportsMainTitle}
-          projectLink={blocksportsLink}
-          linkInfo={blocksportsLinkInfo}
-          description={blocksportsDescription}
-          stack={blocksportsStack}
-        />
+      <div className='columns mt-5 is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-2-fullhd'>
+        <div className='column '>
+          <Card
+            recentProjectImageMain={gaineys_preview}
+            mainTitle={gaineysMainTitle}
+            projectLink={gaineysLink}
+            linkInfo={gaineysLinKInfo}
+            description={gaineysDescription}
+            stack={gaineysStack}
+          />
+        </div>
+        <div className='column'>
+          <Card
+            recentProjectImageMain={blocksports_preview}
+            mainTitle={blocksportsMainTitle}
+            projectLink={blocksportsLink}
+            linkInfo={blocksportsLinkInfo}
+            description={blocksportsDescription}
+            stack={blocksportsStack}
+          />
+        </div>
       </div>
     </div>
   </div>

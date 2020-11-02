@@ -14,8 +14,8 @@ const AboutLayout = () => (
       </div>
       <div class='block'>
         <h1 className='title is-5 hero_title_body'>
-          I’m Gabe Olesen, a student currently studying BSc Computing at Oxford
-          Brookes University doing my final year.
+          My name is Gabe Olesen, a student currently studying BSc Computing at
+          Oxford Brookes University doing my final year.
         </h1>
       </div>
       <div class='block'>
@@ -27,7 +27,7 @@ const AboutLayout = () => (
       <div class='block'>
         <h1 className='title is-5 hero_title_body'>
           One of my hobbies is coffee, learning how to dial in a near-perfect
-          espresso is a sience and I enjoy the process.
+          espresso is a science.
         </h1>
       </div>
     </div>

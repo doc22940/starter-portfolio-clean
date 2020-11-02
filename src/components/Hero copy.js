@@ -21,7 +21,7 @@ const Hero = () => (
               </h1>
               <h1 className='subtitle is-3 hero_title mt-1'>{titleEnd}</h1>
             </div>
-            <div className='column ml-5 is-5 is-10-mobile'>
+            <div className='column is-5'>
               <figure className='image'>
                 <img src={avatar} alt='gabe_avatar' className='avatar_style' />
               </figure>
