@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.hero_title {
+  font-family: 'Anonymous Pro';
+}
+.hero_title_body {
+  font-family: 'Oswald';
+  word-wrap: normal;
+}
+
+.nav_title {
+  font-family: 'Oswald' !important;
+  font-weight: '600' !important;
+}

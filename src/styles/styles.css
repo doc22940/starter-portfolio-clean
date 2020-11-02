@@ -1,0 +1,34 @@
+.button {
+  font-family: 'Oswald';
+  font-weight: '200';
+}
+
+.avatar_style {
+  -webkit-filter: drop-shadow(0 0 0.3rem #100b27);
+  filter: drop-shadow(0 0 0.3rem #100b27);
+}
+
+@media screen and (max-width: 768px) {
+  .is-flex-mobile {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-footer {
+  margin-top: auto;
+  justify-content: flex-end;
+}
