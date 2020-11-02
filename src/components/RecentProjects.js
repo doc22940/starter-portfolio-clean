@@ -11,7 +11,7 @@ import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import gaineys_preview from '../assets/images/gaineys_card_preview.png';
 import blocksports_preview from '../assets/images/blocksports_card_preview.png';
 
-const recentProject = 'Recent Projects {';
+const recentProject = '{ Recent Projects: }';
 
 const gaineysMainTitle = 'Gaineys';
 const gaineysLink = 'https://www.gaineyshomeimprovement.com/';

@@ -18,7 +18,7 @@ import btt_preview from '../assets/images/btt_card_preview.png';
 import travalabot_preview from '../assets/images/travalabot_card_preview.png';
 import Card from '../components/Card';
 
-const recentProject = 'Projects {';
+const recentProject = '{ Projects: }';
 
 const projectRowOne = [
   {
