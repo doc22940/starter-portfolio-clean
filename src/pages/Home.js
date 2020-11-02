@@ -3,11 +3,9 @@ import Form from '../components/Form';
 import Hero from '../components/Hero';
 import '../styles/fonts.css';
 import RecentProjects from '../components/RecentProjects';
-import ScrollTop from '../components/ScrollTop';
 
 const Home = () => (
   <React.Fragment>
-    <ScrollTop />
     <Hero />
     <RecentProjects />
     <div className='container mt-6 mb-6'>
