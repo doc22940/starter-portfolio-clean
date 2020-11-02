@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/fonts.css';
 import gabe_about_me_photo from '../assets/images/gabe_about_me.jpg';
+
 const AboutLayout = () => (
   <div class='columns'>
     <div class='column is-5 has-text-centered ml-4 mr-4'>
@@ -9,9 +10,6 @@ const AboutLayout = () => (
       </figure>
     </div>
     <div class='column ml-4 mr-4'>
-      <div class='block'>
-        <strong>👋 </strong>
-      </div>
       <div class='block'>
         <h1 className='title is-5 hero_title_body'>
           My name is Gabe Olesen, a student currently studying BSc Computing at
